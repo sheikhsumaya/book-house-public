@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "The Moonstone ",
+    "suppliername": "Wilkie Collins",
+    "img": "https://i.ibb.co/pJQM1Wh/the-Moonstone-1st-ed-800x700.jpg",
+    "price": "3.0$",
+    "quentity": "40",
+    "des": "The Moonstone (1868) by Wilkie Collins is a 19th-century British epistolary novel. It is an early example of the modern detective novel, and established many of the ground rules of the modern genre. The story was serialised in Charles Dickens's magazine All the Year Round. Collins adapted The Moonstone for the stage in 1877."
+  },
+  {
+    "id": 2,
+    "name": "The Big Sleep",
+    "suppliername": "Raymond Chandler",
+    "img": "https://i.ibb.co/YQ3hb81/The-Big-Sleep-800x700.jpg",
+    "price": "4.0$",
+    "quentity": "30",
+    "des": "The Big Sleep (1939) is a hardboiled crime novel by American-British writer Raymond Chandler, the first to feature the detective Philip Marlowe. It has been adapted for film twice, in 1946 and again in 1978. The story is set in Los Angeles."
+  },
+  {
+    "id": 3,
+    "name": "The Maltese Falcon",
+    "suppliername": "Dashiell Hammett",
+    "img": "https://i.ibb.co/891BtMh/The-Maltese-Falcon-1st-ed-cover-800x700.jpg",
+    "price": "2.90$",
+    "quentity": "20",
+    "des": "The Maltese Falcon is a 1930 detective novel by American writer Dashiell Hammett, originally serialized in the magazine Black Mask beginning with the September 1929 issue. The story is told entirely in external third-person narrative; there is no description whatsoever of any character's thoughts or feelings, only what they say and do, and how they look."
+  },
+  {
+    "id": 4,
+    "name": "Gone Girl",
+    "suppliername": "Gillian Flynn",
+    "img": "https://i.ibb.co/YdD9JqX/Gone-Girl-Flynn-novel-800x700.jpg",
+    "price": "3.0$",
+    "quentity": "30",
+    "des": "Gone Girl is a 2012 crime thriller novel by American writer Gillian Flynn. It was published by Crown Publishing Group in June 2012. The novel became popular and made the New York Times Best Seller list. The sense of suspense in the novel comes from whether or not Nick Dunne is involved in the disappearance of his wife Amy."
+  },
+  {
+    "id": 5,
+    "name": "The Silence of the Lambs",
+    "suppliername": "Thomas Harris",
+    "img": "https://i.ibb.co/sHPFyj3/Silence-800x700.png",
+    "price": "3.60$",
+    "quentity": "34",
+    "des": "The Silence of the Lambs is a psychological horror novel by Thomas Harris. First published in 1988, it is the sequel to Harris's 1981 novel Red Dragon. Both novels feature the cannibalistic serial killer Dr. Hannibal Lecter, this time pitted against FBI Special Agent Clarice Starling. Its film adaptation directed by Jonathan Demme was released in 1991."
+  },
+  {
+    "id": 6,
+    "name": "In Cold Blood",
+    "suppliername": "Truman Capote",
+    "img": "https://i.ibb.co/KjBH2MQ/In-Cold-Blood-Truman-Capote-800x700.jpg",
+    "price": "3.0$",
+    "quentity": "43",
+    "des": "In Cold Blood is a non-fiction novel[1] by American author Truman Capote, first published in 1966. It details the 1959 murders of four members of the Clutter family in the small farming community of Holcomb, Kansas."
+  },
+  {
+    "id": 7,
+    "name": "In the Woods",
+    "suppliername": "Tana French",
+    "img": "https://i.ibb.co/K9RWSsB/In-the-Woods-cover-800x700.jpg",
+    "price": "4.0$",
+    "quentity": "23",
+    "des": "In the Woods is a 2007 mystery novel by Tana French about a pair of Irish detectives and their investigation of the murder of a twelve-year-old girl. It is the first book in French's Dublin Murder Squad series.[1] The novel won several awards such as the 2008 Edgar Award for Best First Novel by an American Author,[2] the 2008 Barry Award for Best First Novel,[3]"
+  },
+  {
+    "id": 8,
+    "name": "A Study in Scarlet",
+    "suppliername": " Arthur Conan Doyle",
+    "img": "https://i.ibb.co/6YHs2df/Arthur-Conan-Doyle-AStudy-In-Scarlet-800x700.jpg?fbclid=IwAR09XpezPWrpZOV4qt_p_lJjBjkQ1UfaiRBpwQ0A2DurVxElnd1RcC9HgWQ",
+    "price": "3.50$",
+    "quentity": "43",
+    "des": "A Study in Scarlet is an 1887 detective novel written by Arthur Conan Doyle. The story marks the first appearance of Sherlock Holmes and Dr. Watson, who would become the most famous detective duo in literature. The book's title derives from a speech given by Holmes, a consulting detective, to his friend and chronicler Watson on the nature of his work"
+  },
+  {
+    "id": 9,
+    "name": "The Girl on the Train",
+    "suppliername": "Paula Hawkins",
+    "img": "https://i.ibb.co/T1RwhTD/The-Girl-on-the-Train-800x700.jpg",
+    "price": "3.70$",
+    "quentity": "32",
+    "des": "The Girl on the Train is a 2015 psychological thriller novel by British author Paula Hawkins that gives narratives from three different women about relationship troubles (caused by three coercive/controlling men) and, for the main protagonist, alcoholism.[1] The novel debuted in the number one spot on The New York Times Fiction Best Sellers of 2015 list"
+  }
+]
