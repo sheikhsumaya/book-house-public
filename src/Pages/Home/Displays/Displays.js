@@ -21,7 +21,7 @@ const Displays = () => {
       {
         displays.slice(0, 6).map( displays =>
           <Display 
-          key={displays._id}
+          key={displays.id}
           displays={displays}
           ></Display>
         )
