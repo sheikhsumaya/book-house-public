@@ -11,12 +11,12 @@ const Display = ({ displays, setDisplays }) => {
         </div>
 
         <div className="food-name">
-          <h5 className="card-title pt-3">{name}</h5>
-          <h6 className="card-title pt-3">By {suppliername}</h6>
+          <h2 className="card-title pt-3">{name}</h2>
+          <h3 className="card-title pt-3">By {suppliername}</h3>
         </div>
         <p className="card-text text-justify">{des}</p>
-        <p className="card-text text-justify">Price:{price}</p>
-        <p className="card-text text-justify">Quantity:{quentity}</p>
+        <h5 className="card-text text-justify">Price:{price}</h5>
+        <h6 className="card-text text-justify">Quantity:{quentity}</h6>
       </div>
       <div className="card-footer ">
         <button
