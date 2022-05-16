@@ -6,12 +6,12 @@ import {getAuth} from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAf-oGYuqE_LRmmEUQuMwpNiAOeIDkobfY",
-  authDomain: "detactive-books.firebaseapp.com",
-  projectId: "detactive-books",
-  storageBucket: "detactive-books.appspot.com",
-  messagingSenderId: "146975191947",
-  appId: "1:146975191947:web:417c4733e898fa13e0358e"
+  apiKey:process.env.REACT_APP_apikey, 
+  authDomain:process.env.REACT_APP_authDomain,
+  projectId:process.env.REACT_APP_projectId,
+  storageBucket:process.env.REACT_APP_storageBucket, 
+  messagingSenderId:process.env.REACT_APP_messagingSenderId,
+  appId:process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
