@@ -8,32 +8,32 @@ const Banner = () => {
       <Carousel className='mt-5' variant="dark">
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 caroimg"
       src="https://i.ibb.co/nBTZvdF/carosul3-1440x850.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
-      <h2 className='bnr-text text-white w-100 p-4'>Knowledge is Power</h2>
+      <h2 className='bnr-text w-100 p-4'>Knowledge is Power</h2>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 caroimg"
       src="https://i.ibb.co/G0rWBzW/carosul-1-1440x850.jpg"
       alt="Second slide"
     />
     <Carousel.Caption>
-      <h2 className='bnr-text text-white  w-100 p-4'>Knowledge is Power</h2>
+      <h2 className='bnr-text   w-100 p-4 '>Knowledge is Power</h2>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 caroimg"
       src="https://i.ibb.co/1rVMGFB/carosul4.webp"
       alt="Third slide"
     />
     <Carousel.Caption>
-      <h2 className='bnr-text text-white w-100 p-4'>Knowledge is Power</h2>
+      <h2 className='bnr-text w-100 p-4'>Knowledge is Power</h2>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Conract = () => {
+const Contract = () => {
   return (
     <div className="container">
       <h1 className="mt-5 pt-5 text-center">Contact Us</h1>
@@ -57,4 +57,4 @@ const Conract = () => {
   );
 };
 
-export default Conract;
+export default Contract;

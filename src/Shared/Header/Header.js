@@ -7,7 +7,7 @@ const Header = () => {
  
 
   return (
-    <div className="container">
+    <header className="container">
       <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-dark shadow-lg">
         <div className="container-fluid">
           <Link to="/home" className="navbar-brand d-flex text-warning">
@@ -72,6 +72,12 @@ const Header = () => {
                     >
                       Add Items
                     </Link>
+                    <Link
+                      to="/blog"
+                      className="nav-link nav-bar rounded-3 "
+                    >
+                     Blog
+                    </Link>
                     <h2 className="text-warning fs-5 pe-4 fw-bold text-decoration-none text-warning my-auto">
                      
                     </h2>
@@ -98,7 +104,7 @@ const Header = () => {
           </form>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

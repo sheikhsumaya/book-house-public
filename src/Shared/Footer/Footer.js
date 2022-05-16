@@ -7,7 +7,7 @@ const Footer = () => {
   const year = today.getFullYear();
 
   return (
-    <div className="bg-dark text-warning p-5">
+    <footer className="bg-dark text-warning p-5">
       <div className="row">
         <div className="col-md-4 d-flex justify-content-center">
           <div className="ms-5">
@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
