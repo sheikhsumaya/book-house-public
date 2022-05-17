@@ -76,7 +76,7 @@ const Blog = () => {
         <Accordion.Item eventKey="2">
           <Accordion.Header>
             {" "}
-            Differences between sql and nosql databases.
+            Differences between SQL and NoSQL databases.
           </Accordion.Header>
           <Accordion.Body>
             Differences between SQL vs NoSQL are:
