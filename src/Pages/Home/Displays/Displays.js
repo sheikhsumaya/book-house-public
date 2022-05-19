@@ -11,7 +11,7 @@ const Displays = () => {
       fetch('http://localhost:5000/data')
       .then(res => res.json())
       .then (data => setDisplays(data));
-  })
+  }, [])
 
   return (
     <div className="mt-3 pt-5 mb-5">
