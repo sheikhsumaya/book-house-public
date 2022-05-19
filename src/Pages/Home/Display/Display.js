@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./Display.css";
 
 const Display = ({ displays, setDisplays }) => {
-  const { id, name, img, des, price, quentity, suppliername } = displays;
+  const { _id, name, img, des, price, quentity, suppliername } = displays;
   const navigate = useNavigate();
   const navigateDetails = id =>{
     navigate(`/detail/${id}`);
@@ -29,7 +29,7 @@ const Display = ({ displays, setDisplays }) => {
       </div>
       <div className="card-footer ">
         <button
-          onClick={() => navigateDetails(id)}
+          onClick={() => navigateDetails(_id)}
           type="button"
           className="btn btn-warning fw-bold w-100"
           data-bs-toggle="modal"

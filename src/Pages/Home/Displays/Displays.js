@@ -8,7 +8,7 @@ const Displays = () => {
   const [displays, setDisplays] = useState([]);
 
   useEffect ( ()=>{
-      fetch('data.json')
+      fetch('http://localhost:5000/data')
       .then(res => res.json())
       .then (data => setDisplays(data));
   })
@@ -21,7 +21,7 @@ const Displays = () => {
       {
         displays.slice(0, 6).map( displays =>
           <Display 
-          key={displays.id}
+          key={displays._id}
           displays={displays}
           ></Display>
         )

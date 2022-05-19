@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import './Detail.css'
 
 const Detail = () => {
   const { detailId } = useParams();
+  const [detail, setDetail] = useState({});
+
+
+  useEffect( ()=>{
+    const url = `http://localhost:5000/data/${detailId}`;
+
+    fetch(url)
+    .then(res=> res.json())
+    .then(data =>setDetail(data));
+  },[])
+
   return (
     <div>
-      <h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat
-        magnam quod laboriosam incidunt debitis ratione dolorum repudiandae,
-        corrupti explicabo? service detail:{detailId}
+      <h2 className="top-detail">
+        Here Are Details About:{detail.name}
       </h2>
       <div className="text-center">
         <Link to="/checkout">
