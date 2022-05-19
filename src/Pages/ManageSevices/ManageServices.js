@@ -24,7 +24,7 @@ const ManageServices = () => {
   }
 
   return (
-    <div className='w-50 mx-auto'>
+    <div className='w-50 mx-auto mb-5'>
       <h1 className='manage-top'>Manage Your Services</h1>
       {
         displays.map(display => <div

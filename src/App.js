@@ -11,7 +11,6 @@ import Contract from "./Pages/Home/Contract/Contract";
 import Login from "./From/Login/Login";
 import Register from "./From/Register/Register";
 import RequiredAuth from "./From/RequiredAuth/RequiredAuth";
-import CheckOut from "./Pages/CheckOut/CheckOut";
 import Detail from "./Shared/Detail/Detail";
 import AddServices from "./Pages/AddServices/AddServices";
 import ManageServices from "./Pages/ManageSevices/ManageServices";
@@ -25,19 +24,16 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
-        <Route path="/detail/:detailId" element={<Detail></Detail>}></Route>
-        <Route path="/items" element={<Items></Items>}></Route>
+        <Route path="/detail/:detailId" element={<RequiredAuth>
+              <Detail></Detail>
+            </RequiredAuth>}></Route>
+        <Route path="/items" element={<RequiredAuth>
+              <Items></Items>
+            </RequiredAuth>}></Route>
         <Route path="/contact" element={<Contract></Contract>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
-        <Route
-          path="/checkout" 
-          element={
-            <RequiredAuth>
-              <CheckOut></CheckOut>
-            </RequiredAuth>
-          }
-        ></Route>
+       
         <Route
           path="/addservice" 
           element={
