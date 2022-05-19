@@ -19,7 +19,7 @@ const Displays = () => {
       <hr className="border border-4 border-dark rounded-pill w-25 m-auto" />
       <div className="container item-container mt-5">
       {
-        displays.slice(0, 6).map( displays =>
+        displays.map( displays =>
           <Display 
           key={displays._id}
           displays={displays}
