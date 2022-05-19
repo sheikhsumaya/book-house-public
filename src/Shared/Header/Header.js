@@ -27,8 +27,14 @@ const Header = () => {
       <div className="d-flex">
       <Nav.Link as={Link} to ="/home">Home</Nav.Link>
       <Nav.Link as={Link} to="/Blog" >Blog</Nav.Link>
-      <Nav.Link as={Link} to="/about">About</Nav.Link>
       <Nav.Link as={Link} to="/items">All Items</Nav.Link>
+      <Nav.Link as={Link} to="/about">About</Nav.Link>
+      {
+        user && <>
+        <Nav.Link as={Link} to="/addservice">Add</Nav.Link>
+        <Nav.Link as={Link} to="/manageservice">Manage</Nav.Link>
+        </>
+      }
       </div>
       <div>
       {

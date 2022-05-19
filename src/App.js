@@ -14,6 +14,7 @@ import RequiredAuth from "./From/RequiredAuth/RequiredAuth";
 import CheckOut from "./Pages/CheckOut/CheckOut";
 import Detail from "./Shared/Detail/Detail";
 import AddServices from "./Pages/AddServices/AddServices";
+import ManageServices from "./Pages/ManageSevices/ManageServices";
 
 function App() {
   return (
@@ -42,6 +43,14 @@ function App() {
           element={
             <RequiredAuth>
               <AddServices></AddServices>
+            </RequiredAuth>
+          }
+        ></Route>
+        <Route
+          path="/manageservice" 
+          element={
+            <RequiredAuth>
+              <ManageServices></ManageServices>
             </RequiredAuth>
           }
         ></Route>
