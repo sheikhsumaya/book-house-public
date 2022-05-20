@@ -4,7 +4,7 @@ const useDisplays = () =>{
   const [displays, setDisplays] = useState([]);
 
   useEffect ( ()=>{
-      fetch('http:///data')
+      fetch('https://serene-coast-92793.herokuapp.com/data')
       .then(res => res.json())
       .then (data => setDisplays(data));
   }, []);
