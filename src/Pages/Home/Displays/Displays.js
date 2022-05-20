@@ -8,7 +8,7 @@ const Displays = () => {
   const [displays, setDisplays] = useState([]);
 
   useEffect ( ()=>{
-      fetch('http://localhost:5000/data')
+      fetch('https://serene-coast-92793.herokuapp.com/data')
       .then(res => res.json())
       .then (data => setDisplays(data));
   }, [])

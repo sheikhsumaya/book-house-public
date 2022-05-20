@@ -9,7 +9,7 @@ const ManageServices = () => {
   const handleDelete = id =>{
     const proceed = window.confirm('Are you sure?');
     if(proceed){
-     const url =`http://localhost:5000/data/${id}`;
+     const url =`https://serene-coast-92793.herokuapp.com/data/${id}`;
      fetch(url, {
        method: 'DELETE'
      })

@@ -4,7 +4,7 @@ const useDisplays = () =>{
   const [displays, setDisplays] = useState([]);
 
   useEffect ( ()=>{
-      fetch('http://localhost:5000/data')
+      fetch('http:///data')
       .then(res => res.json())
       .then (data => setDisplays(data));
   }, []);

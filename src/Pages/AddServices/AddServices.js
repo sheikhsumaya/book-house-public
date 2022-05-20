@@ -7,7 +7,7 @@ const AddServices = () => {
   const onSubmit = data => {
     
     console.log(data)
-    const url = `http://localhost:5000/data`;
+    const url = `https://serene-coast-92793.herokuapp.com/data`;
     fetch(url,{
        method: 'POST',
        headers:{

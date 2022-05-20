@@ -8,7 +8,7 @@ const Detail = () => {
 
 
   useEffect( ()=>{
-    const url = `http://localhost:5000/data/${detailId}`;
+    const url = `/${detailId}`;
 
     fetch(url)
     .then(res=> res.json())
