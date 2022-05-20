@@ -1,6 +1,6 @@
 import React from 'react';
 import useDisplays from '../../hooks/useDisplays';
-import './ManageServices.css'
+// import './ManageServices.css';
 
 const ManageServices = () => {
   const [displays, setDisplays] = useDisplays();

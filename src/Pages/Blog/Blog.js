@@ -47,7 +47,7 @@ const Blog = () => {
             specific object, but all of them are operating system specific. An
             example is ActiveX Control which is only running in Windows. But
             Node JS is given utility to run some operating system specific
-            non-blocking tasks from any JavaScript programming. It doesn’t have
+            non-blocking tasks from any JavaScript programming. It doesnt have
             any operating system specific constant. Node JS is very much
             familiar to create a specific binding with the file system and
             allows the developer to read or sometimes write on disk.

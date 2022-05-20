@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Display.css";
+// import "./Display.css";
 
 const Display = ({ displays, setDisplays }) => {
   const { _id, name, img, des, price, quentity, suppliername } = displays;

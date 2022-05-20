@@ -1,4 +1,4 @@
-.bnr-text{
+ /* .bnr-text{
    font-weight: 600;
    font-size: 100px;
    color: rgb(210, 192, 170);
@@ -10,7 +10,7 @@
    margin-top: 50px;
  }
 /* responsive */
-@media only screen and (max-width: 689px) {
+/* @media only screen and (max-width: 689px) {
    .bnr-text{
      width: 20px;
      height: 30px;
@@ -22,6 +22,6 @@
      width: 40px;
      height: 200px;
      margin-top: 50px;
-   }
+   } 
  }
- 
+   */

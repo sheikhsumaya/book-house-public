@@ -27,6 +27,135 @@
 .App-link {
   color: #61dafb;
 }
+.container-login{
+  margin-top: 200px;
+  margin-bottom: 100px;
+
+}
+.add-top{
+  margin-top: 200px;
+}
+.bnr-text{
+  font-weight: 600;
+  font-size: 100px;
+  color: rgb(210, 192, 170);
+ 
+}
+.caroimg{
+  
+  height: 600px;
+  margin-top: 50px;
+}
+.fas {
+  font-size: 60px;
+  color: #ffcd04;
+}
+.image {
+  max-height: 320px;
+  overflow: hidden;
+}
+.card-container:hover img {
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.food-name {
+  background: rgba(255, 255, 0, 0.151);
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+.heading{
+  text-align: center;
+}
+.price{
+  margin-top: 20px;
+}
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.display-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.manage-top{
+  margin-top: 100px;
+}
+.top-detail{
+  margin-top: 100px;
+}
+.fab {
+  font-size: 35px;
+  padding-left: 20px;
+}
+
+.logo {
+  width: 45px; 
+} 
+.icon-btn {
+ position: fixed;
+ top: 20px;
+ right: 35px;
+ width: 40px;
+ height: 30px;
+} */
+.icon {
+ position: fixed;
+ top: 20px;
+ right: 40px;
+} 
+.nav-bar {
+ color: white;
+ font-weight: 600;
+} 
+.nav-bar:hover {
+ background-color: yellow;
+ color: black !important;
+ transition: 0.3s linear;
+} 
+
+.nav-position{
+ display: flex;
+}
+
+/* responsive */
+@media only screen and (max-width: 689px) {
+  .bnr-text{
+    width: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+  }
+  .caroimg{
+    width: 40px;
+    height: 200px;
+    margin-top: 50px;
+  }
+  .item-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nav-position{
+    display: inline;
+  }
+  
+}
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  .item-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {

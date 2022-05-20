@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import './Detail.css'
+// import './Detail.css';
 
 const Detail = () => {
   const { detailId } = useParams();
@@ -8,7 +8,7 @@ const Detail = () => {
 
 
   useEffect( ()=>{
-    const url = `/${detailId}`;
+    const url = `https://serene-coast-92793.herokuapp.com/data/${detailId}`;
 
     fetch(url)
     .then(res=> res.json())

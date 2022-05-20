@@ -1,4 +1,4 @@
-import { async } from "@firebase/util";
+
 import React, { useRef, useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import {  useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
