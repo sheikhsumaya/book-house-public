@@ -14,6 +14,7 @@ import RequiredAuth from "./From/RequiredAuth/RequiredAuth";
 import Detail from "./Shared/Detail/Detail";
 import AddServices from "./Pages/AddServices/AddServices";
 import ManageServices from "./Pages/ManageSevices/ManageServices";
+import Loading from "./From/Loading/Loading";
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <Loading></Loading>
     </div>
   );
 }

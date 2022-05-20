@@ -13,7 +13,7 @@ const Detail = () => {
     fetch(url)
     .then(res=> res.json())
     .then(data =>setDetail(data));
-  }, [])
+  }, [detailId])
 
   return (
     <div className="top-detail">
